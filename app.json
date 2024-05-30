@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "TaskManager2",
-    "slug": "TaskManager2",
+    "name": "TaskManager1",
+    "slug": "TaskManager1",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -9,7 +9,11 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#ffffff",
+      "jsEngine": "hermes",
+    "plugins": [
+      "expo-dev-client"
+    ]
     },
     "ios": {
       "supportsTablet": true
